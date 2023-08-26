@@ -12,7 +12,7 @@ formEl.addEventListener('submit', event => {
         window.alert("Error Message");
     }
     else {
-        fetch('https://beersapc.onrender.com/api_productname/v1/beers/11', {
+        fetch('https://beersapc.onrender.com/api_productname/v1/beers/12', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
