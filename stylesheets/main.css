@@ -1,6 +1,5 @@
 /*-- body --*/
 body {
-    display: flex;
     min-height: 98vh;
     align-items: center;
     background-color: #f8f9fa;
