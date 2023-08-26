@@ -5,9 +5,6 @@ formEl.addEventListener('submit', event => {
     const formData = new FormData(formEl);
     const data = Object.fromEntries(formData);
     if( data.beer == "" 
-	|| data.abv == "" 
-	|| data.style == "" 
-    || data.brewery == "" 
 	){
         window.alert("Error Message");
     }
